@@ -123,7 +123,14 @@ main > section{
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar, 
-    .nav-links{
+    .nav-links,
+    .teams{
         flex-direction: column;
+    }
+    .team-img-container{
+        grid-template-columns: 1fr;
+    }
+    .our-features{
+        margin-left: 20px;
     }
 }
