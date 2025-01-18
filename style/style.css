@@ -139,8 +139,13 @@ main > section{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
+    margin-top: 50px;
 }
-
+.Our-Sponspors{
+    margin-top: 130px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .sponsor-info{
     max-width: 550px;
     text-align: center;
