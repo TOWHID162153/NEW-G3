@@ -153,9 +153,11 @@ main > section{
     margin-bottom: 50px;
 }
 .sponsor-logo{
+    filter: grayscale(100%);
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 24px;
+    margin: 0 auto;
 }
 .Sponspor-title{
     font-size: 2.8rem;
@@ -169,7 +171,7 @@ main > section{
 .foot-sec {
     max-width: 1440px;
     margin: 0 auto;
-    margin-top: 130px;
+    margin-top: 50px;
     margin-bottom: 130px;
 }
 .foot-para {
@@ -193,6 +195,9 @@ main > section{
         grid-template-columns: 1fr;
         gap: 24px;
     }
+    .sponsor-logo{
+        margin: 50px auto;
+    }
     .our-features{
         margin-left: 20px;
     }
@@ -200,6 +205,7 @@ main > section{
         grid-template-columns: 1fr;
         justify-items: center;
     }
+    
 }
 
 /* medium size device */
