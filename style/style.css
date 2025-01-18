@@ -145,6 +145,7 @@ main > section{
     max-width: 550px;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 .sponsor-logo{
     display: grid;
